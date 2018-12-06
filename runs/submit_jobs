@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for d in ./*/ ; do (cd "$d" && evcouplings config.txt); done
+
+exit 0
